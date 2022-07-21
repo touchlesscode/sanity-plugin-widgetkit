@@ -1,6 +1,6 @@
 {
   "name": "sanity-plugin-widgetkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "author": "Kevin <kevin@gervais.is>",
   "license": "MIT",
@@ -29,7 +29,10 @@
     "link-watch": "plugin-kit link-watch",
     "prepublishOnly": "npm run build"
   },
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/touchlesscode/sanity-plugin-widgetkit.git"
+  },
   "engines": {
     "node": ">=14.0.0"
   },
