@@ -1,5 +1,6 @@
+import {createPlugin} from 'sanity'
 
-
+  
 interface MyPluginConfig {
   /* nothing here yet */
 }
